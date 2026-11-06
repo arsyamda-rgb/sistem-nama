@@ -1,0 +1,16 @@
+name: RPName
+version: 1.0.0
+main: id.rpname.RPNamePlugin
+api-version: '1.21.6'
+description: GUI input nama roleplay saat pertama kali join
+commands:
+  rpname:
+    description: Ubah / reset nama roleplay
+    usage: /rpname [reset <player>]
+permissions:
+  rpname.change:
+    description: Boleh membuka ulang form nama sendiri
+    default: false
+  rpname.admin:
+    description: Boleh reset nama pemain lain
+    default: op
